@@ -54,6 +54,8 @@ I've splitted this tutorial into several parts and I have implemented a containe
 
 I started from implementing support for `namespaces`, then added support for `cgroups`, `root capabilities`, `pivot_root`, security isolation and network isolation.
 
+**Note!** The support for `cgroups` and security isolation are not implemented yet.
+
 Each implementation step I put into separated directories:
 
 * [Basic structure](./src/00-cnt.c) - this file contains the basic template for the app. It can be used as a starting point (app skeleton).
